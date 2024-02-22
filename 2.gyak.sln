@@ -5,6 +5,8 @@ VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.gyak", "2.gyak\2.gyak.csproj", "{EC84C602-628A-4D24-92E6-A958A05F2D2E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "szorzotabla", "szorzotabla\szorzotabla.csproj", "{E33BDDEC-148C-440D-AD1B-790E9B376E67}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{EC84C602-628A-4D24-92E6-A958A05F2D2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC84C602-628A-4D24-92E6-A958A05F2D2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC84C602-628A-4D24-92E6-A958A05F2D2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E33BDDEC-148C-440D-AD1B-790E9B376E67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E33BDDEC-148C-440D-AD1B-790E9B376E67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E33BDDEC-148C-440D-AD1B-790E9B376E67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E33BDDEC-148C-440D-AD1B-790E9B376E67}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
