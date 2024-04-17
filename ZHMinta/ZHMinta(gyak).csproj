@@ -13,8 +13,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="Kerdesek\hajozasi_szabalyzat_kerdessor_BOM.txt">
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    <None Update="Kerdesek\hajozasi_szabalyzat_coma.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
 

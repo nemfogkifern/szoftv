@@ -18,9 +18,11 @@ namespace HajozasTeszt
             for (int i = 0; i < 7; i++)
             {
                 AktívKérdések.Add(ÖsszesKérdés[0]);
+
                 ÖsszesKérdés.RemoveAt(0);
             }
-            dataGridView1.DataSource = AktívKérdések;
+            KerdesUC feladat = new KerdesUC(AktívKérdések[6]);
+            Controls.Add(feladat);
 
 
         }
@@ -46,6 +48,7 @@ namespace HajozasTeszt
                 int.TryParse(tomb[6], out int JoValasz);
 
                 k.HelyesValasz = JoValasz;
+
 
                 kerdesek.Add(k);
             }
@@ -74,5 +77,31 @@ namespace HajozasTeszt
 
 
 
+    }
+
+    internal class ValaszGomb : TextBox
+    {
+        public ValaszGomb()
+        {
+            BackColor = Color.LightGray;
+            Multiline = true;
+            ReadOnly = true;
+
+            MouseEnter += VálaszGomb_MouseEnter;
+            MouseLeave += VálaszGomb_MouseLeave;
+
+            BorderStyle = BorderStyle.None;
+            Cursor = Cursors.Hand;
+        }
+
+        private void VálaszGomb_MouseLeave(object? sender, EventArgs e)
+        {
+            BorderStyle = BorderStyle.None;
+        }
+
+        private void VálaszGomb_MouseEnter(object? sender, EventArgs e)
+        {
+            BorderStyle = BorderStyle.FixedSingle;
+        }
     }
 }

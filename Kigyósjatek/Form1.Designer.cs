@@ -1,4 +1,4 @@
-﻿namespace HajozasTeszt
+﻿namespace Kigyósjatek
 {
     partial class Form1
     {
@@ -28,19 +28,28 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
+            timer1 = new System.Windows.Forms.Timer(components);
             SuspendLayout();
+            // 
+            // timer1
+            // 
+            timer1.Enabled = true;
+            timer1.Interval = 500;
+            timer1.Tick += timer1_Tick;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1140, 551);
+            ClientSize = new Size(1012, 537);
             Name = "Form1";
             Text = "Form1";
-            Load += Form1_Load;
             ResumeLayout(false);
         }
 
         #endregion
+
+        private System.Windows.Forms.Timer timer1;
     }
 }
