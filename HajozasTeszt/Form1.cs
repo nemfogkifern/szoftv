@@ -18,6 +18,7 @@ namespace HajozasTeszt
             for (int i = 0; i < 7; i++)
             {
                 AktívKérdések.Add(ÖsszesKérdés[0]);
+                ÖsszesKérdés.RemoveAt(0);
             }
             dataGridView1.DataSource = AktívKérdések;
 

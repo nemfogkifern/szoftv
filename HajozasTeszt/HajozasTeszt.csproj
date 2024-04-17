@@ -10,7 +10,7 @@
 
   <ItemGroup>
     <None Update="Kerdesek\hajozasi_szabalyzat_kerdessor_BOM.txt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </None>
   </ItemGroup>
 
