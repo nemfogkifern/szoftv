@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.gyak", "2.gyak\2.gyak.csproj", "{EC84C602-628A-4D24-92E6-A958A05F2D2E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.gyak", "2.gyak\2.gyak.csproj", "{EC84C602-628A-4D24-92E6-A958A05F2D2E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "szorzotabla", "szorzotabla\szorzotabla.csproj", "{E33BDDEC-148C-440D-AD1B-790E9B376E67}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "szorzotabla", "szorzotabla\szorzotabla.csproj", "{E33BDDEC-148C-440D-AD1B-790E9B376E67}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fibonacci", "Fibonacci\Fibonacci.csproj", "{43468615-67BE-4883-9CA5-534AF264C411}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fibonacci", "Fibonacci\Fibonacci.csproj", "{43468615-67BE-4883-9CA5-534AF264C411}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PascalHaromszog", "PascalHaromszog\PascalHaromszog.csproj", "{23468D56-ECD3-4980-9FD4-828686F20474}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PascalHaromszog", "PascalHaromszog\PascalHaromszog.csproj", "{23468D56-ECD3-4980-9FD4-828686F20474}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HajozasTeszt", "HajozasTeszt\HajozasTeszt.csproj", "{ACEBC734-C85B-4E76-91C0-3CF5135873C8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{23468D56-ECD3-4980-9FD4-828686F20474}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23468D56-ECD3-4980-9FD4-828686F20474}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23468D56-ECD3-4980-9FD4-828686F20474}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACEBC734-C85B-4E76-91C0-3CF5135873C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACEBC734-C85B-4E76-91C0-3CF5135873C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACEBC734-C85B-4E76-91C0-3CF5135873C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACEBC734-C85B-4E76-91C0-3CF5135873C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
